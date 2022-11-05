@@ -1,15 +1,17 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
+      
+function generatePassword() {
 
-// Write password to the #password input
-function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
+               
+  var userInput = window.prompt("How many characters do you want in your password?")   
+  var passwordLength =(userInput);
+  if (isNaN(passwordLength)) {
+    window.alert("That's not a number!")        // Alerts if user input is not a number. If what user inputs is not a number it alerts and  returns to the start of the page  
+    return "Try Again!";
+ 
+  }
 
-  passwordText.value = password;
-
-}
-  
   var userNeedsNumbers = window.confirm("Do you want numbers in your password?")              
   var userNeedsUpperCase = window.confirm("Do you want upper case letters in your password?")      
   var userNeedsLowerCase = window.confirm("Do you want lower case letters in your password?")                  //creates windows for user to respond with boolean value
@@ -20,7 +22,7 @@ function writePassword() {
   var userSelectLowerCase = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
   var userSelectSpecialCharacter = ["!","#","$","%","&","'","(","/",")", ",","*","+",",","-",".","/",":",";","<","=",">","?","@","[","_","`","{","|","}","~","]"];
 
-  if (userNeedNumber === true) {
+  if (userNeedNumber === true) {                                        
   }
   if (UserNeedsUpperCase === true) {  
   }
@@ -29,9 +31,16 @@ function writePassword() {
   if (userNeedsSpecialCharacter === true) {                     //if statements to determine which array to pull characters from based on user input
   }
 
-console.log(userNeedsNumbers);
+}
+// Write password to the #password input
+function writePassword() {
+  var password = generatePassword();
+  var passwordText = document.querySelector("#password");
+
+  passwordText.value = password;
 
 
+}
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
