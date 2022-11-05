@@ -11,6 +11,10 @@ function generatePassword() {
     return "Try Again!";
  
   }
+  if (passwordLength < 8 || passwordLength > 128) {                                                   // sets that password has to be between 8 and 128 characters. If outside that send the alert to the user
+    window.alert("Password length must be more than 8 characterts and not more than 128 characters")
+    return
+  }
 
   var userNeedsNumbers = window.confirm("Do you want numbers in your password?")              
   var userNeedsUpperCase = window.confirm("Do you want upper case letters in your password?")      
