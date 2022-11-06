@@ -1,14 +1,15 @@
-# 03 JavaScript: Password Generator
+# Password Generator
 
-## Your Task
+## Description
+The Password Generator showcases my newly learned skills in Javascript. I have learned an introduction in how Javascript can make a website more interactive and make options for the user. 
+I learned how you can take the users input of number and boolean value use that information to present an answer based on the users input and respond with a statement or an action. I leaned how to take infromation from an array and sending the user a random value from that list and that console.log() can be extremely helpful while trouble shooting trying to find an error in the code. 
+  
+## Installation
 
 
-## User Story
+## Usage
 
-
-
-## Acceptance Criteria
-
+The following acceptance criteria has been completed: 
 ```
 GIVEN I need a new, secure password
 WHEN I click the button to generate a password
@@ -26,9 +27,9 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
+![The Password Generator webpage includes a headline explaining the use of the application, a window the application to give the information to the user and a button for the user to interact with.](./Assets/pagescreenshot.png)
 
-
-## Credit and resources used for coding learning 
+## Credit and resources used
 
 ## Articles:
 https://www.tutorialspoint.com/check-if-input-is-a-number-or-letter-in-javascript
@@ -40,3 +41,13 @@ https://www.youtube.com/watch?v=JheVaV6bPvE&ab_channel=freeCodeCamp.org
 https://www.youtube.com/watch?v=x4HUaiazDes&ab_channel=PaulKeldsen-WebDevelopment
 https://www.youtube.com/watch?v=ssYo9t37pE4&t=369s&ab_channel=OpenJavaScript
 https://www.youtube.com/watch?v=iLx4ma8ZqvQ&ab_channel=freeCodeCamp.org
+
+## License
+
+MIT License
+
+Copyright (c) 2022 kristermyr
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
