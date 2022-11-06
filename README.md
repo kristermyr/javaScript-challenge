@@ -5,7 +5,8 @@ The Password Generator showcases my newly learned skills in Javascript. I have l
 I learned how you can take the users input of numbers and boolean value, use that information to present an answer based on the users input and respond with a statement or an action. I leaned how to take information from an array and sending the user a random value from that list and that console.log() can be extremely helpful while trouble shooting trying to find an error in the code. 
 
 ## Installation
-
+Website URL: https://github.com/kristermyr/javaScript-challenge.git
+Open Github: https://github.com/kristermyr/javaScript-challenge.git  
 
 ## Usage
 
@@ -29,7 +30,7 @@ THEN the password is either displayed in an alert or written to the page
 ```
 ![The Password Generator webpage includes a headline explaining the use of the application, a window the application to give the information to the user and a button for the user to interact with.](./Assets/pagescreenshot.png)
 
-## Credit and resources used
+## Credits and resources
 
 ## Articles:
 https://www.tutorialspoint.com/check-if-input-is-a-number-or-letter-in-javascript  
