@@ -26,7 +26,7 @@ function generatePassword() {
   var userSelectNumber = ["0","1","2","3","4","5","6","7","8","9"]; 
   var userSelectUpperCase = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];  // array of the different options for the user
   var userSelectLowerCase = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]; 
-  var userSelectSpecialCharacter = ["!","#","$","%","&","'","(","/",")", ",","*","+",",","-",".","/",":",";","<","=",">","?","@","[","_","`","{","|","}","~","]"];
+  var userSelectSpecialCharacter = ["!","#","$","%","&","'","(","/",")", ",","*","+","-",".","/",":",";","<","=",">","?","@","[","_","`","{","|","}","~","]"];
   
       if (userNeedsNumbers) {                                ///if statements to determine which array to pull characters from based on user input. Pushes the array into the empty array         
       userSelect = [...userSelect, ...userSelectNumber]                  
@@ -35,7 +35,7 @@ function generatePassword() {
       if (userNeedsUpperCase) {  
       userSelect = [...userSelect, ...userSelectUpperCase]       // ... is the spread operator.expands the array into individual elements. Combines the arrays into one array.
       }
-      
+
       if (userNeedsLowerCase) { 
       userSelect = [...userSelect, ...userSelectLowerCase]      
       }
