@@ -37,6 +37,8 @@ https://www.tutorialspoint.com/check-if-input-is-a-number-or-letter-in-javascrip
 https://stackoverflow.com/questions/20816723/return-a-string-value-when-boolean-is-true  
 https://htmlcheatsheet.com/js/  
 https://www.w3schools.com/jsref/jsref_push.asp  
+FreeCodeCamp challenge #48 - https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/shopping-list
+
 ## Youtube:
 https://www.youtube.com/watch?v=JheVaV6bPvE&ab_channel=freeCodeCamp.org  
 https://www.youtube.com/watch?v=x4HUaiazDes&ab_channel=PaulKeldsen-WebDevelopment  

@@ -1,17 +1,17 @@
 // Assignment Code
-var generateBtn = document.querySelector("#generate");
+var generateBtn = document.querySelector("#generate");                 // #Generate is the ID from the HTML
       
 function generatePassword() {
 
                
-  var passwordLength = window.prompt("How many characters do you want in your password?")   // sets value for passwordLength
+  var passwordLength = window.prompt("How many characters do you want in your password?")   // User sets value for passwordLength
 
       if (isNaN(passwordLength)) {
       window.alert("That's not a number!")        // Alerts if user input is not a number. If what user inputs is not a number it alerts and  returns to the start of the page  
       return "Try again!";
       }
 
-      if (passwordLength < 8 || passwordLength > 128) {                                                   // sets that password has to be between 8 and 128 characters. If outside that send the alert to the user
+      if (passwordLength < 8 || passwordLength > 128) {                // sets that password has to be between 8 and 128 characters. If outside, send the alert to the user
       window.alert("Password length must be more than 8 characterts and not more than 128 characters")
       return "Try again!";
       }
@@ -33,9 +33,9 @@ function generatePassword() {
       }
 
       if (userNeedsUpperCase) {  
-      userSelect = [...userSelect, ...userSelectUpperCase]       // ... is the spread operator. It makes sure that its all strings in the array and not array within array. 
-      } 
-  
+      userSelect = [...userSelect, ...userSelectUpperCase]       // ... is the spread operator.expands the array into individual elements. Combines the arrays into one array.
+      }
+      
       if (userNeedsLowerCase) { 
       userSelect = [...userSelect, ...userSelectLowerCase]      
       }
@@ -48,13 +48,13 @@ function generatePassword() {
     
       for (var i = 0; i < passwordLength; i++) { 
       var randomIndex = Math.floor(Math.random() * userSelect.length) // randomizes the array
-      password.push(userSelect[randomIndex]);
+      password.push(userSelect[randomIndex]);                    // pushes the randomized array into the password array
       if (userSelect.length === 0) {
       return ("Select at least one character type. Try again!" )  // if user does not select any character types it returns to the start of the page with an alert
       }
       }
 
-  return password.join('');
+  return password.join(''); // makes a new string by concatenating the elements of the array
 }
 
 function writePassword() {
