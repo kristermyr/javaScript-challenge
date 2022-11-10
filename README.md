@@ -32,9 +32,6 @@ THEN the password is either displayed in an alert or written to the page
 
 ## Credits and resources
 
-Salahuddin Asim 
-Github: https://github.com/Sal8298/password-generator-week-3.gits
-
 ## Articles:
 https://www.tutorialspoint.com/check-if-input-is-a-number-or-letter-in-javascript  
 https://stackoverflow.com/questions/20816723/return-a-string-value-when-boolean-is-true  
@@ -47,6 +44,10 @@ https://www.youtube.com/watch?v=JheVaV6bPvE&ab_channel=freeCodeCamp.org
 https://www.youtube.com/watch?v=x4HUaiazDes&ab_channel=PaulKeldsen-WebDevelopment  
 https://www.youtube.com/watch?v=ssYo9t37pE4&t=369s&ab_channel=OpenJavaScript  
 https://www.youtube.com/watch?v=iLx4ma8ZqvQ&ab_channel=freeCodeCamp.org  
+
+## Collaborators:
+Salahuddin Asim 
+Github: https://github.com/Sal8298/password-generator-week-3.gits
 
 ## License
 
