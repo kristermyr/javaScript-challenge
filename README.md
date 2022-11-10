@@ -32,6 +32,9 @@ THEN the password is either displayed in an alert or written to the page
 
 ## Credits and resources
 
+Salahuddin Asim 
+Github: 
+
 ## Articles:
 https://www.tutorialspoint.com/check-if-input-is-a-number-or-letter-in-javascript  
 https://stackoverflow.com/questions/20816723/return-a-string-value-when-boolean-is-true  
