@@ -30,22 +30,18 @@ function generatePassword() {
   var userSelect = [];
 
   
-      if (userNeedsNumbers) {                                ///if statements to determine which array to pull characters from based on user input. Pushes the array into the empty array         
+      if (userNeedsNumbers) {                              //if statements to determine which array to pull characters from based on user input. Pushes the array into the empty array         
       userSelect = [...userSelect, ...userSelectNumber]                  
       }
 
-  
-
       if (userNeedsUpperCase) {  
-      userSelect = [...userSelect, ...userSelectUpperCase]       // ... is the spread operator.expands the array into individual elements. Combines the arrays into one array.
+      userSelect = [...userSelect, ...userSelectUpperCase]    // ... is the spread operator.expands the array into individual elements. Combines the arrays into one array.
       }
       
-  
       if (userNeedsLowerCase) { 
       userSelect = [...userSelect, ...userSelectLowerCase]      
       }
 
- 
       if (userNeedsSpecialCharacter) {                     
       userSelect = [...userSelect, ...userSelectSpecialCharacter]       
       }
